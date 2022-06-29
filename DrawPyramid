@@ -1,0 +1,18 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main()
+{    
+cout<<"     ";
+cout<< setw(2) <<setfill('*')<<"\n";
+cout<<"    ";
+cout<< setw(4) <<setfill('*')<<"\n";
+cout<<"   ";
+cout<< setw(6) <<setfill('*')<<"\n";
+cout<<"  ";
+cout<< setw(8) <<setfill('*')<<"\n";
+cout<<" ";
+cout<< setw(10) <<setfill('*')<<"\n";
+return 0;
+}
